@@ -30,15 +30,15 @@ component.
     >>> # we remove only 3 components
     >>> ica.exclude += ecg_inds[:3]
 
-.. figure:: _images/sphx_glr_plot_ica_from_raw_005.png
-   :target: auto_tutorials/plot_ica_from_raw.html
+.. figure:: ../../_images/sphx_glr_plot_ica_from_raw_005.png
+   :target: ../../auto_tutorials/plot_ica_from_raw.html
    :scale: 50%
 
 Examples:
-    ../../auto_tutorials/plot_ica_from_raw.html
-    auto_examples/preprocessing/plot_find_ecg_artifacts.html
-    auto_examples/preprocessing/plot_find_eog_artifacts.html
-    auto_examples/preprocessing/plot_eog_artifact_histogram.html
+`../../auto_tutorials/plot_ica_from_raw.html`
+`../../auto_examples/preprocessing/plot_find_ecg_artifacts.html`
+`../../auto_examples/preprocessing/plot_find_eog_artifacts.html`
+`../../auto_examples/preprocessing/plot_eog_artifact_histogram.html`
 
 If EOG or ECG recordings are not available, you can visually select the artifact
 components. This can be done on the independent components time series, looking for
@@ -49,8 +49,8 @@ find corresponding components in other subject, using
 :func:`CORRMAP <mne.preprocessing.ica.corrmap>`.
 
 Examples:
-    auto_examples/preprocessing/plot_corrmap_detection.html
-    auto_examples/preprocessing/plot_run_ica.html
+`../../auto_examples/preprocessing/plot_corrmap_detection.html`
+`../../auto_examples/preprocessing/plot_run_ica.html`
 
 ICA-based artifact rejection is done using the :class:`mne.preprocessing.ICA`
 class, see the :ref:`manual/preprocessing/ica` section in the manual for more information.
@@ -64,6 +64,5 @@ SSP-based rejection is done using the
 :func:`compute_proj_ecg <mne.preprocessing.compute_proj_ecg>` and
 :func:`compute_proj_eog <mne.preprocessing.compute_proj_eog>` methods,
 see :ref:`manual/preprocessing/ssp` section in the manual for more information.
-
 
     >>> ecg_proj, ecg_event = mne.preprocessing.compute_proj_ecg(raw)

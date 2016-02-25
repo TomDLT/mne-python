@@ -13,7 +13,7 @@ extracting epochs and down-sampling the Epochs object.
     >>> # Down-sampling to 100 Hz
     >>> epochs_downsampled = epochs.resample(100, copy=True)
 
-.. figure:: _images/sphx_glr_plot_resample_001.png
+.. figure:: ../../_images/sphx_glr_plot_resample_001.png
    :target: ../../auto_examples/time_frequency/plot_compute_raw_data_spectrum.html
    :scale: 50%
 
@@ -40,7 +40,7 @@ Removing power-line noise can be done with a Notch filter, directly on the Raw o
 
     >>> raw.notch_filter(np.arange(60, 241, 60), picks=picks)
 
-.. figure:: _images/sphx_glr_plot_compute_raw_data_spectrum_002.png
+.. figure:: ../../_images/sphx_glr_plot_compute_raw_data_spectrum_002.png
    :target: ../../auto_examples/time_frequency/plot_compute_raw_data_spectrum.html
    :scale: 50%
 

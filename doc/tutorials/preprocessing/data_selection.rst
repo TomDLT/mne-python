@@ -51,15 +51,15 @@ other channels, to correct the bad channels.
     >>> # compute interpolation (also works with Raw and Epochs objects)
     >>> evoked.interpolate_bads(reset_bads=False)
 
-.. figure:: _images/sphx_glr_plot_interpolate_bad_channels_001.png
-   :target: auto_examples/preprocessing/plot_interpolate_bad_channels.html
+.. figure:: ../../_images/sphx_glr_plot_interpolate_bad_channels_001.png
+   :target: ../../auto_examples/preprocessing/plot_interpolate_bad_channels.html
    :scale: 30%
-.. figure:: _images/sphx_glr_plot_interpolate_bad_channels_002.png
-   :target: auto_examples/preprocessing/plot_interpolate_bad_channels.html
+.. figure:: ../../_images/sphx_glr_plot_interpolate_bad_channels_002.png
+   :target: ../../auto_examples/preprocessing/plot_interpolate_bad_channels.html
    :scale: 30%
 
 Examples
-    auto_examples/preprocessing/plot_interpolate_bad_channels.html
+`../../auto_examples/preprocessing/plot_interpolate_bad_channels.html`
 
 Picking channels
 ----------------
@@ -80,4 +80,4 @@ Please note the `exclude='bads'` option, which exclude the channels we marked as
 
 See also
 ^^^^^^^^
-    auto_examples/preprocessing/plot_virtual_evoked.html
+`../../auto_examples/preprocessing/plot_virtual_evoked.html`
