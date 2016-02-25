@@ -27,8 +27,11 @@ Working with MNE data structures
 Preprocessing
 -------------
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
+   tutorials/preprocessing/basic_preprocessing.rst
+   tutorials/preprocessing/data_selection.rst
+   tutorials/preprocessing/artifacts_suppression.rst
    auto_tutorials/plot_ica_from_raw.rst
 
 Source localization
