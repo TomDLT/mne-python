@@ -41,9 +41,11 @@ extensions = ['sphinx.ext.autodoc',
               'sphinx.ext.pngmath',
               'sphinx.ext.mathjax',
               'numpy_ext.numpydoc',
-              'sphinx.ext.intersphinx',
-              # 'flow_diagram',
-              sg_extension]
+              'sphinx.ext.intersphinx']
+
+extensions += [sg_extension]  # sphinx gallery
+extensions += ['gen_commands']  # auto generate the doc for the python commands
+# extensions += ['flow_diagram]  # generate flow chart in cookbook
 
 autosummary_generate = True
 
